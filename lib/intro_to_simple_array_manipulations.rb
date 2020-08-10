@@ -11,9 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  ultimate = array.pop
-  penultimate = array.pop
-  [penultimate, ultimate]
+  array.pop(2)
 end
 
 def using_shift(array)
